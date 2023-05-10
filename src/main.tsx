@@ -18,8 +18,10 @@ import FeedPage from './pages/FeedPage.tsx';
   
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
 
-    <Provider store={store}>
-      <App/>
-    </Provider>
-
+    // <Provider store={store}>
+    //   <App/>
+    // </Provider>
+  <div>
+    sadasfsdfas
+  </div>
 )
