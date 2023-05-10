@@ -10,8 +10,7 @@ const RegisterPage = () => {
   const {
     register,
     handleSubmit,
-    watch,
-    formState: { errors, isValid },
+    formState: { errors },
   } = useForm<RegisterForm>();
 
   const isAuth = useSelector(selectIsAuth);

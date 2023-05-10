@@ -1,11 +1,8 @@
-import { useDispatch, useSelector } from "react-redux";
-import { Link, Navigate, Outlet } from "react-router-dom";
-import { fetchAuth, logout, selectIsAuth, selectUser } from "../redux/slices/auth";
+import { useSelector } from "react-redux";
+import { Navigate, Outlet } from "react-router-dom";
+import { selectIsAuth, selectUser } from "../redux/slices/auth";
 import Header from "../components/Header";
 import MenuItem from "../components/MenuItem";
-import { useAppDispatch } from "../redux/store";
-import { SubmitHandler } from "react-hook-form";
-import { AuthenticateForm } from "../model/Request";
 import { useEffect } from "react";
 
 const Root = () => {

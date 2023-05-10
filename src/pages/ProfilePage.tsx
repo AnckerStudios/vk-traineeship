@@ -1,8 +1,6 @@
-import { useSelector } from "react-redux";
-import { selectUser } from "../redux/slices/auth";
 import { useEffect, useState } from "react";
 import axios from "../axios";
-import { useLoaderData, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { IUser } from "../model/User";
 import { IPost } from "../model/Post";
 import Post from "../components/Post";

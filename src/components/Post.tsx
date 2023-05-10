@@ -1,6 +1,5 @@
 import { useEffect } from "react";
 import { IPost } from "../model/Post";
-import { IUser } from "../model/User";
 
 interface PostProps{
   post: IPost

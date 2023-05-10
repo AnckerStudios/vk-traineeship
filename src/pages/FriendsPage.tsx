@@ -3,14 +3,14 @@ import Friend from "../components/Friend";
 import axios from "../axios";
 import { IUser } from "../model/User";
 
-function authHeader() {
-  const userStr = localStorage.getItem("user");
-  if (userStr) {
-    return { Authorization: 'Bearer ' + '2123' };
-  } else {
-    return { Authorization: '' };
-  }
-}
+// function authHeader() {
+//   const userStr = localStorage.getItem("user");
+//   if (userStr) {
+//     return { Authorization: 'Bearer ' + '2123' };
+//   } else {
+//     return { Authorization: '' };
+//   }
+// }
 const FriendPage = () => {
   const [users, setUsers] = useState<IUser[]>([]);
   const [selection,setSelection] = useState<string>('all')

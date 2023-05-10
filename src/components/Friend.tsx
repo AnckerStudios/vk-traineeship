@@ -15,14 +15,14 @@ const Friend = ({ user, type }: FriendProps) => {
     }
     
   }
-  const onDel = () => {
-    if(user.id){
-      axios.get(`api/friend/add/${user.id}`).then(res=>{
-        console.log(res.data);
-      })
-    }
+  // const onDel = () => {
+  //   if(user.id){
+  //     axios.get(`api/friend/add/${user.id}`).then(res=>{
+  //       console.log(res.data);
+  //     })
+  //   }
     
-  }
+  // }
   return (
     <div className="p-2 flex gap-4 justify-between items-center">
       <img

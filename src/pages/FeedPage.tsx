@@ -1,4 +1,4 @@
-import Post from "../components/Post";
+
 
 const FeedPage = () => {
     return ( 

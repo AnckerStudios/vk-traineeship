@@ -1,7 +1,7 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Root from "./pages/Root";
 import ErrorPage from "./pages/ErrorPage";
-import ProfilePage,  { loader as userLoader } from "./pages/ProfilePage";
+import ProfilePage from "./pages/ProfilePage";
 import FriendPage from "./pages/FriendsPage";
 import FeedPage from "./pages/FeedPage";
 import LoginPage from "./pages/LoginPage";

@@ -10,8 +10,7 @@ const LoginPage = () => {
     const {
         register,
         handleSubmit,
-        watch,
-        formState: { errors, isValid },
+        formState: { errors },
       } = useForm<AuthenticateForm>();
     
       const isAuth = useSelector(selectIsAuth);
